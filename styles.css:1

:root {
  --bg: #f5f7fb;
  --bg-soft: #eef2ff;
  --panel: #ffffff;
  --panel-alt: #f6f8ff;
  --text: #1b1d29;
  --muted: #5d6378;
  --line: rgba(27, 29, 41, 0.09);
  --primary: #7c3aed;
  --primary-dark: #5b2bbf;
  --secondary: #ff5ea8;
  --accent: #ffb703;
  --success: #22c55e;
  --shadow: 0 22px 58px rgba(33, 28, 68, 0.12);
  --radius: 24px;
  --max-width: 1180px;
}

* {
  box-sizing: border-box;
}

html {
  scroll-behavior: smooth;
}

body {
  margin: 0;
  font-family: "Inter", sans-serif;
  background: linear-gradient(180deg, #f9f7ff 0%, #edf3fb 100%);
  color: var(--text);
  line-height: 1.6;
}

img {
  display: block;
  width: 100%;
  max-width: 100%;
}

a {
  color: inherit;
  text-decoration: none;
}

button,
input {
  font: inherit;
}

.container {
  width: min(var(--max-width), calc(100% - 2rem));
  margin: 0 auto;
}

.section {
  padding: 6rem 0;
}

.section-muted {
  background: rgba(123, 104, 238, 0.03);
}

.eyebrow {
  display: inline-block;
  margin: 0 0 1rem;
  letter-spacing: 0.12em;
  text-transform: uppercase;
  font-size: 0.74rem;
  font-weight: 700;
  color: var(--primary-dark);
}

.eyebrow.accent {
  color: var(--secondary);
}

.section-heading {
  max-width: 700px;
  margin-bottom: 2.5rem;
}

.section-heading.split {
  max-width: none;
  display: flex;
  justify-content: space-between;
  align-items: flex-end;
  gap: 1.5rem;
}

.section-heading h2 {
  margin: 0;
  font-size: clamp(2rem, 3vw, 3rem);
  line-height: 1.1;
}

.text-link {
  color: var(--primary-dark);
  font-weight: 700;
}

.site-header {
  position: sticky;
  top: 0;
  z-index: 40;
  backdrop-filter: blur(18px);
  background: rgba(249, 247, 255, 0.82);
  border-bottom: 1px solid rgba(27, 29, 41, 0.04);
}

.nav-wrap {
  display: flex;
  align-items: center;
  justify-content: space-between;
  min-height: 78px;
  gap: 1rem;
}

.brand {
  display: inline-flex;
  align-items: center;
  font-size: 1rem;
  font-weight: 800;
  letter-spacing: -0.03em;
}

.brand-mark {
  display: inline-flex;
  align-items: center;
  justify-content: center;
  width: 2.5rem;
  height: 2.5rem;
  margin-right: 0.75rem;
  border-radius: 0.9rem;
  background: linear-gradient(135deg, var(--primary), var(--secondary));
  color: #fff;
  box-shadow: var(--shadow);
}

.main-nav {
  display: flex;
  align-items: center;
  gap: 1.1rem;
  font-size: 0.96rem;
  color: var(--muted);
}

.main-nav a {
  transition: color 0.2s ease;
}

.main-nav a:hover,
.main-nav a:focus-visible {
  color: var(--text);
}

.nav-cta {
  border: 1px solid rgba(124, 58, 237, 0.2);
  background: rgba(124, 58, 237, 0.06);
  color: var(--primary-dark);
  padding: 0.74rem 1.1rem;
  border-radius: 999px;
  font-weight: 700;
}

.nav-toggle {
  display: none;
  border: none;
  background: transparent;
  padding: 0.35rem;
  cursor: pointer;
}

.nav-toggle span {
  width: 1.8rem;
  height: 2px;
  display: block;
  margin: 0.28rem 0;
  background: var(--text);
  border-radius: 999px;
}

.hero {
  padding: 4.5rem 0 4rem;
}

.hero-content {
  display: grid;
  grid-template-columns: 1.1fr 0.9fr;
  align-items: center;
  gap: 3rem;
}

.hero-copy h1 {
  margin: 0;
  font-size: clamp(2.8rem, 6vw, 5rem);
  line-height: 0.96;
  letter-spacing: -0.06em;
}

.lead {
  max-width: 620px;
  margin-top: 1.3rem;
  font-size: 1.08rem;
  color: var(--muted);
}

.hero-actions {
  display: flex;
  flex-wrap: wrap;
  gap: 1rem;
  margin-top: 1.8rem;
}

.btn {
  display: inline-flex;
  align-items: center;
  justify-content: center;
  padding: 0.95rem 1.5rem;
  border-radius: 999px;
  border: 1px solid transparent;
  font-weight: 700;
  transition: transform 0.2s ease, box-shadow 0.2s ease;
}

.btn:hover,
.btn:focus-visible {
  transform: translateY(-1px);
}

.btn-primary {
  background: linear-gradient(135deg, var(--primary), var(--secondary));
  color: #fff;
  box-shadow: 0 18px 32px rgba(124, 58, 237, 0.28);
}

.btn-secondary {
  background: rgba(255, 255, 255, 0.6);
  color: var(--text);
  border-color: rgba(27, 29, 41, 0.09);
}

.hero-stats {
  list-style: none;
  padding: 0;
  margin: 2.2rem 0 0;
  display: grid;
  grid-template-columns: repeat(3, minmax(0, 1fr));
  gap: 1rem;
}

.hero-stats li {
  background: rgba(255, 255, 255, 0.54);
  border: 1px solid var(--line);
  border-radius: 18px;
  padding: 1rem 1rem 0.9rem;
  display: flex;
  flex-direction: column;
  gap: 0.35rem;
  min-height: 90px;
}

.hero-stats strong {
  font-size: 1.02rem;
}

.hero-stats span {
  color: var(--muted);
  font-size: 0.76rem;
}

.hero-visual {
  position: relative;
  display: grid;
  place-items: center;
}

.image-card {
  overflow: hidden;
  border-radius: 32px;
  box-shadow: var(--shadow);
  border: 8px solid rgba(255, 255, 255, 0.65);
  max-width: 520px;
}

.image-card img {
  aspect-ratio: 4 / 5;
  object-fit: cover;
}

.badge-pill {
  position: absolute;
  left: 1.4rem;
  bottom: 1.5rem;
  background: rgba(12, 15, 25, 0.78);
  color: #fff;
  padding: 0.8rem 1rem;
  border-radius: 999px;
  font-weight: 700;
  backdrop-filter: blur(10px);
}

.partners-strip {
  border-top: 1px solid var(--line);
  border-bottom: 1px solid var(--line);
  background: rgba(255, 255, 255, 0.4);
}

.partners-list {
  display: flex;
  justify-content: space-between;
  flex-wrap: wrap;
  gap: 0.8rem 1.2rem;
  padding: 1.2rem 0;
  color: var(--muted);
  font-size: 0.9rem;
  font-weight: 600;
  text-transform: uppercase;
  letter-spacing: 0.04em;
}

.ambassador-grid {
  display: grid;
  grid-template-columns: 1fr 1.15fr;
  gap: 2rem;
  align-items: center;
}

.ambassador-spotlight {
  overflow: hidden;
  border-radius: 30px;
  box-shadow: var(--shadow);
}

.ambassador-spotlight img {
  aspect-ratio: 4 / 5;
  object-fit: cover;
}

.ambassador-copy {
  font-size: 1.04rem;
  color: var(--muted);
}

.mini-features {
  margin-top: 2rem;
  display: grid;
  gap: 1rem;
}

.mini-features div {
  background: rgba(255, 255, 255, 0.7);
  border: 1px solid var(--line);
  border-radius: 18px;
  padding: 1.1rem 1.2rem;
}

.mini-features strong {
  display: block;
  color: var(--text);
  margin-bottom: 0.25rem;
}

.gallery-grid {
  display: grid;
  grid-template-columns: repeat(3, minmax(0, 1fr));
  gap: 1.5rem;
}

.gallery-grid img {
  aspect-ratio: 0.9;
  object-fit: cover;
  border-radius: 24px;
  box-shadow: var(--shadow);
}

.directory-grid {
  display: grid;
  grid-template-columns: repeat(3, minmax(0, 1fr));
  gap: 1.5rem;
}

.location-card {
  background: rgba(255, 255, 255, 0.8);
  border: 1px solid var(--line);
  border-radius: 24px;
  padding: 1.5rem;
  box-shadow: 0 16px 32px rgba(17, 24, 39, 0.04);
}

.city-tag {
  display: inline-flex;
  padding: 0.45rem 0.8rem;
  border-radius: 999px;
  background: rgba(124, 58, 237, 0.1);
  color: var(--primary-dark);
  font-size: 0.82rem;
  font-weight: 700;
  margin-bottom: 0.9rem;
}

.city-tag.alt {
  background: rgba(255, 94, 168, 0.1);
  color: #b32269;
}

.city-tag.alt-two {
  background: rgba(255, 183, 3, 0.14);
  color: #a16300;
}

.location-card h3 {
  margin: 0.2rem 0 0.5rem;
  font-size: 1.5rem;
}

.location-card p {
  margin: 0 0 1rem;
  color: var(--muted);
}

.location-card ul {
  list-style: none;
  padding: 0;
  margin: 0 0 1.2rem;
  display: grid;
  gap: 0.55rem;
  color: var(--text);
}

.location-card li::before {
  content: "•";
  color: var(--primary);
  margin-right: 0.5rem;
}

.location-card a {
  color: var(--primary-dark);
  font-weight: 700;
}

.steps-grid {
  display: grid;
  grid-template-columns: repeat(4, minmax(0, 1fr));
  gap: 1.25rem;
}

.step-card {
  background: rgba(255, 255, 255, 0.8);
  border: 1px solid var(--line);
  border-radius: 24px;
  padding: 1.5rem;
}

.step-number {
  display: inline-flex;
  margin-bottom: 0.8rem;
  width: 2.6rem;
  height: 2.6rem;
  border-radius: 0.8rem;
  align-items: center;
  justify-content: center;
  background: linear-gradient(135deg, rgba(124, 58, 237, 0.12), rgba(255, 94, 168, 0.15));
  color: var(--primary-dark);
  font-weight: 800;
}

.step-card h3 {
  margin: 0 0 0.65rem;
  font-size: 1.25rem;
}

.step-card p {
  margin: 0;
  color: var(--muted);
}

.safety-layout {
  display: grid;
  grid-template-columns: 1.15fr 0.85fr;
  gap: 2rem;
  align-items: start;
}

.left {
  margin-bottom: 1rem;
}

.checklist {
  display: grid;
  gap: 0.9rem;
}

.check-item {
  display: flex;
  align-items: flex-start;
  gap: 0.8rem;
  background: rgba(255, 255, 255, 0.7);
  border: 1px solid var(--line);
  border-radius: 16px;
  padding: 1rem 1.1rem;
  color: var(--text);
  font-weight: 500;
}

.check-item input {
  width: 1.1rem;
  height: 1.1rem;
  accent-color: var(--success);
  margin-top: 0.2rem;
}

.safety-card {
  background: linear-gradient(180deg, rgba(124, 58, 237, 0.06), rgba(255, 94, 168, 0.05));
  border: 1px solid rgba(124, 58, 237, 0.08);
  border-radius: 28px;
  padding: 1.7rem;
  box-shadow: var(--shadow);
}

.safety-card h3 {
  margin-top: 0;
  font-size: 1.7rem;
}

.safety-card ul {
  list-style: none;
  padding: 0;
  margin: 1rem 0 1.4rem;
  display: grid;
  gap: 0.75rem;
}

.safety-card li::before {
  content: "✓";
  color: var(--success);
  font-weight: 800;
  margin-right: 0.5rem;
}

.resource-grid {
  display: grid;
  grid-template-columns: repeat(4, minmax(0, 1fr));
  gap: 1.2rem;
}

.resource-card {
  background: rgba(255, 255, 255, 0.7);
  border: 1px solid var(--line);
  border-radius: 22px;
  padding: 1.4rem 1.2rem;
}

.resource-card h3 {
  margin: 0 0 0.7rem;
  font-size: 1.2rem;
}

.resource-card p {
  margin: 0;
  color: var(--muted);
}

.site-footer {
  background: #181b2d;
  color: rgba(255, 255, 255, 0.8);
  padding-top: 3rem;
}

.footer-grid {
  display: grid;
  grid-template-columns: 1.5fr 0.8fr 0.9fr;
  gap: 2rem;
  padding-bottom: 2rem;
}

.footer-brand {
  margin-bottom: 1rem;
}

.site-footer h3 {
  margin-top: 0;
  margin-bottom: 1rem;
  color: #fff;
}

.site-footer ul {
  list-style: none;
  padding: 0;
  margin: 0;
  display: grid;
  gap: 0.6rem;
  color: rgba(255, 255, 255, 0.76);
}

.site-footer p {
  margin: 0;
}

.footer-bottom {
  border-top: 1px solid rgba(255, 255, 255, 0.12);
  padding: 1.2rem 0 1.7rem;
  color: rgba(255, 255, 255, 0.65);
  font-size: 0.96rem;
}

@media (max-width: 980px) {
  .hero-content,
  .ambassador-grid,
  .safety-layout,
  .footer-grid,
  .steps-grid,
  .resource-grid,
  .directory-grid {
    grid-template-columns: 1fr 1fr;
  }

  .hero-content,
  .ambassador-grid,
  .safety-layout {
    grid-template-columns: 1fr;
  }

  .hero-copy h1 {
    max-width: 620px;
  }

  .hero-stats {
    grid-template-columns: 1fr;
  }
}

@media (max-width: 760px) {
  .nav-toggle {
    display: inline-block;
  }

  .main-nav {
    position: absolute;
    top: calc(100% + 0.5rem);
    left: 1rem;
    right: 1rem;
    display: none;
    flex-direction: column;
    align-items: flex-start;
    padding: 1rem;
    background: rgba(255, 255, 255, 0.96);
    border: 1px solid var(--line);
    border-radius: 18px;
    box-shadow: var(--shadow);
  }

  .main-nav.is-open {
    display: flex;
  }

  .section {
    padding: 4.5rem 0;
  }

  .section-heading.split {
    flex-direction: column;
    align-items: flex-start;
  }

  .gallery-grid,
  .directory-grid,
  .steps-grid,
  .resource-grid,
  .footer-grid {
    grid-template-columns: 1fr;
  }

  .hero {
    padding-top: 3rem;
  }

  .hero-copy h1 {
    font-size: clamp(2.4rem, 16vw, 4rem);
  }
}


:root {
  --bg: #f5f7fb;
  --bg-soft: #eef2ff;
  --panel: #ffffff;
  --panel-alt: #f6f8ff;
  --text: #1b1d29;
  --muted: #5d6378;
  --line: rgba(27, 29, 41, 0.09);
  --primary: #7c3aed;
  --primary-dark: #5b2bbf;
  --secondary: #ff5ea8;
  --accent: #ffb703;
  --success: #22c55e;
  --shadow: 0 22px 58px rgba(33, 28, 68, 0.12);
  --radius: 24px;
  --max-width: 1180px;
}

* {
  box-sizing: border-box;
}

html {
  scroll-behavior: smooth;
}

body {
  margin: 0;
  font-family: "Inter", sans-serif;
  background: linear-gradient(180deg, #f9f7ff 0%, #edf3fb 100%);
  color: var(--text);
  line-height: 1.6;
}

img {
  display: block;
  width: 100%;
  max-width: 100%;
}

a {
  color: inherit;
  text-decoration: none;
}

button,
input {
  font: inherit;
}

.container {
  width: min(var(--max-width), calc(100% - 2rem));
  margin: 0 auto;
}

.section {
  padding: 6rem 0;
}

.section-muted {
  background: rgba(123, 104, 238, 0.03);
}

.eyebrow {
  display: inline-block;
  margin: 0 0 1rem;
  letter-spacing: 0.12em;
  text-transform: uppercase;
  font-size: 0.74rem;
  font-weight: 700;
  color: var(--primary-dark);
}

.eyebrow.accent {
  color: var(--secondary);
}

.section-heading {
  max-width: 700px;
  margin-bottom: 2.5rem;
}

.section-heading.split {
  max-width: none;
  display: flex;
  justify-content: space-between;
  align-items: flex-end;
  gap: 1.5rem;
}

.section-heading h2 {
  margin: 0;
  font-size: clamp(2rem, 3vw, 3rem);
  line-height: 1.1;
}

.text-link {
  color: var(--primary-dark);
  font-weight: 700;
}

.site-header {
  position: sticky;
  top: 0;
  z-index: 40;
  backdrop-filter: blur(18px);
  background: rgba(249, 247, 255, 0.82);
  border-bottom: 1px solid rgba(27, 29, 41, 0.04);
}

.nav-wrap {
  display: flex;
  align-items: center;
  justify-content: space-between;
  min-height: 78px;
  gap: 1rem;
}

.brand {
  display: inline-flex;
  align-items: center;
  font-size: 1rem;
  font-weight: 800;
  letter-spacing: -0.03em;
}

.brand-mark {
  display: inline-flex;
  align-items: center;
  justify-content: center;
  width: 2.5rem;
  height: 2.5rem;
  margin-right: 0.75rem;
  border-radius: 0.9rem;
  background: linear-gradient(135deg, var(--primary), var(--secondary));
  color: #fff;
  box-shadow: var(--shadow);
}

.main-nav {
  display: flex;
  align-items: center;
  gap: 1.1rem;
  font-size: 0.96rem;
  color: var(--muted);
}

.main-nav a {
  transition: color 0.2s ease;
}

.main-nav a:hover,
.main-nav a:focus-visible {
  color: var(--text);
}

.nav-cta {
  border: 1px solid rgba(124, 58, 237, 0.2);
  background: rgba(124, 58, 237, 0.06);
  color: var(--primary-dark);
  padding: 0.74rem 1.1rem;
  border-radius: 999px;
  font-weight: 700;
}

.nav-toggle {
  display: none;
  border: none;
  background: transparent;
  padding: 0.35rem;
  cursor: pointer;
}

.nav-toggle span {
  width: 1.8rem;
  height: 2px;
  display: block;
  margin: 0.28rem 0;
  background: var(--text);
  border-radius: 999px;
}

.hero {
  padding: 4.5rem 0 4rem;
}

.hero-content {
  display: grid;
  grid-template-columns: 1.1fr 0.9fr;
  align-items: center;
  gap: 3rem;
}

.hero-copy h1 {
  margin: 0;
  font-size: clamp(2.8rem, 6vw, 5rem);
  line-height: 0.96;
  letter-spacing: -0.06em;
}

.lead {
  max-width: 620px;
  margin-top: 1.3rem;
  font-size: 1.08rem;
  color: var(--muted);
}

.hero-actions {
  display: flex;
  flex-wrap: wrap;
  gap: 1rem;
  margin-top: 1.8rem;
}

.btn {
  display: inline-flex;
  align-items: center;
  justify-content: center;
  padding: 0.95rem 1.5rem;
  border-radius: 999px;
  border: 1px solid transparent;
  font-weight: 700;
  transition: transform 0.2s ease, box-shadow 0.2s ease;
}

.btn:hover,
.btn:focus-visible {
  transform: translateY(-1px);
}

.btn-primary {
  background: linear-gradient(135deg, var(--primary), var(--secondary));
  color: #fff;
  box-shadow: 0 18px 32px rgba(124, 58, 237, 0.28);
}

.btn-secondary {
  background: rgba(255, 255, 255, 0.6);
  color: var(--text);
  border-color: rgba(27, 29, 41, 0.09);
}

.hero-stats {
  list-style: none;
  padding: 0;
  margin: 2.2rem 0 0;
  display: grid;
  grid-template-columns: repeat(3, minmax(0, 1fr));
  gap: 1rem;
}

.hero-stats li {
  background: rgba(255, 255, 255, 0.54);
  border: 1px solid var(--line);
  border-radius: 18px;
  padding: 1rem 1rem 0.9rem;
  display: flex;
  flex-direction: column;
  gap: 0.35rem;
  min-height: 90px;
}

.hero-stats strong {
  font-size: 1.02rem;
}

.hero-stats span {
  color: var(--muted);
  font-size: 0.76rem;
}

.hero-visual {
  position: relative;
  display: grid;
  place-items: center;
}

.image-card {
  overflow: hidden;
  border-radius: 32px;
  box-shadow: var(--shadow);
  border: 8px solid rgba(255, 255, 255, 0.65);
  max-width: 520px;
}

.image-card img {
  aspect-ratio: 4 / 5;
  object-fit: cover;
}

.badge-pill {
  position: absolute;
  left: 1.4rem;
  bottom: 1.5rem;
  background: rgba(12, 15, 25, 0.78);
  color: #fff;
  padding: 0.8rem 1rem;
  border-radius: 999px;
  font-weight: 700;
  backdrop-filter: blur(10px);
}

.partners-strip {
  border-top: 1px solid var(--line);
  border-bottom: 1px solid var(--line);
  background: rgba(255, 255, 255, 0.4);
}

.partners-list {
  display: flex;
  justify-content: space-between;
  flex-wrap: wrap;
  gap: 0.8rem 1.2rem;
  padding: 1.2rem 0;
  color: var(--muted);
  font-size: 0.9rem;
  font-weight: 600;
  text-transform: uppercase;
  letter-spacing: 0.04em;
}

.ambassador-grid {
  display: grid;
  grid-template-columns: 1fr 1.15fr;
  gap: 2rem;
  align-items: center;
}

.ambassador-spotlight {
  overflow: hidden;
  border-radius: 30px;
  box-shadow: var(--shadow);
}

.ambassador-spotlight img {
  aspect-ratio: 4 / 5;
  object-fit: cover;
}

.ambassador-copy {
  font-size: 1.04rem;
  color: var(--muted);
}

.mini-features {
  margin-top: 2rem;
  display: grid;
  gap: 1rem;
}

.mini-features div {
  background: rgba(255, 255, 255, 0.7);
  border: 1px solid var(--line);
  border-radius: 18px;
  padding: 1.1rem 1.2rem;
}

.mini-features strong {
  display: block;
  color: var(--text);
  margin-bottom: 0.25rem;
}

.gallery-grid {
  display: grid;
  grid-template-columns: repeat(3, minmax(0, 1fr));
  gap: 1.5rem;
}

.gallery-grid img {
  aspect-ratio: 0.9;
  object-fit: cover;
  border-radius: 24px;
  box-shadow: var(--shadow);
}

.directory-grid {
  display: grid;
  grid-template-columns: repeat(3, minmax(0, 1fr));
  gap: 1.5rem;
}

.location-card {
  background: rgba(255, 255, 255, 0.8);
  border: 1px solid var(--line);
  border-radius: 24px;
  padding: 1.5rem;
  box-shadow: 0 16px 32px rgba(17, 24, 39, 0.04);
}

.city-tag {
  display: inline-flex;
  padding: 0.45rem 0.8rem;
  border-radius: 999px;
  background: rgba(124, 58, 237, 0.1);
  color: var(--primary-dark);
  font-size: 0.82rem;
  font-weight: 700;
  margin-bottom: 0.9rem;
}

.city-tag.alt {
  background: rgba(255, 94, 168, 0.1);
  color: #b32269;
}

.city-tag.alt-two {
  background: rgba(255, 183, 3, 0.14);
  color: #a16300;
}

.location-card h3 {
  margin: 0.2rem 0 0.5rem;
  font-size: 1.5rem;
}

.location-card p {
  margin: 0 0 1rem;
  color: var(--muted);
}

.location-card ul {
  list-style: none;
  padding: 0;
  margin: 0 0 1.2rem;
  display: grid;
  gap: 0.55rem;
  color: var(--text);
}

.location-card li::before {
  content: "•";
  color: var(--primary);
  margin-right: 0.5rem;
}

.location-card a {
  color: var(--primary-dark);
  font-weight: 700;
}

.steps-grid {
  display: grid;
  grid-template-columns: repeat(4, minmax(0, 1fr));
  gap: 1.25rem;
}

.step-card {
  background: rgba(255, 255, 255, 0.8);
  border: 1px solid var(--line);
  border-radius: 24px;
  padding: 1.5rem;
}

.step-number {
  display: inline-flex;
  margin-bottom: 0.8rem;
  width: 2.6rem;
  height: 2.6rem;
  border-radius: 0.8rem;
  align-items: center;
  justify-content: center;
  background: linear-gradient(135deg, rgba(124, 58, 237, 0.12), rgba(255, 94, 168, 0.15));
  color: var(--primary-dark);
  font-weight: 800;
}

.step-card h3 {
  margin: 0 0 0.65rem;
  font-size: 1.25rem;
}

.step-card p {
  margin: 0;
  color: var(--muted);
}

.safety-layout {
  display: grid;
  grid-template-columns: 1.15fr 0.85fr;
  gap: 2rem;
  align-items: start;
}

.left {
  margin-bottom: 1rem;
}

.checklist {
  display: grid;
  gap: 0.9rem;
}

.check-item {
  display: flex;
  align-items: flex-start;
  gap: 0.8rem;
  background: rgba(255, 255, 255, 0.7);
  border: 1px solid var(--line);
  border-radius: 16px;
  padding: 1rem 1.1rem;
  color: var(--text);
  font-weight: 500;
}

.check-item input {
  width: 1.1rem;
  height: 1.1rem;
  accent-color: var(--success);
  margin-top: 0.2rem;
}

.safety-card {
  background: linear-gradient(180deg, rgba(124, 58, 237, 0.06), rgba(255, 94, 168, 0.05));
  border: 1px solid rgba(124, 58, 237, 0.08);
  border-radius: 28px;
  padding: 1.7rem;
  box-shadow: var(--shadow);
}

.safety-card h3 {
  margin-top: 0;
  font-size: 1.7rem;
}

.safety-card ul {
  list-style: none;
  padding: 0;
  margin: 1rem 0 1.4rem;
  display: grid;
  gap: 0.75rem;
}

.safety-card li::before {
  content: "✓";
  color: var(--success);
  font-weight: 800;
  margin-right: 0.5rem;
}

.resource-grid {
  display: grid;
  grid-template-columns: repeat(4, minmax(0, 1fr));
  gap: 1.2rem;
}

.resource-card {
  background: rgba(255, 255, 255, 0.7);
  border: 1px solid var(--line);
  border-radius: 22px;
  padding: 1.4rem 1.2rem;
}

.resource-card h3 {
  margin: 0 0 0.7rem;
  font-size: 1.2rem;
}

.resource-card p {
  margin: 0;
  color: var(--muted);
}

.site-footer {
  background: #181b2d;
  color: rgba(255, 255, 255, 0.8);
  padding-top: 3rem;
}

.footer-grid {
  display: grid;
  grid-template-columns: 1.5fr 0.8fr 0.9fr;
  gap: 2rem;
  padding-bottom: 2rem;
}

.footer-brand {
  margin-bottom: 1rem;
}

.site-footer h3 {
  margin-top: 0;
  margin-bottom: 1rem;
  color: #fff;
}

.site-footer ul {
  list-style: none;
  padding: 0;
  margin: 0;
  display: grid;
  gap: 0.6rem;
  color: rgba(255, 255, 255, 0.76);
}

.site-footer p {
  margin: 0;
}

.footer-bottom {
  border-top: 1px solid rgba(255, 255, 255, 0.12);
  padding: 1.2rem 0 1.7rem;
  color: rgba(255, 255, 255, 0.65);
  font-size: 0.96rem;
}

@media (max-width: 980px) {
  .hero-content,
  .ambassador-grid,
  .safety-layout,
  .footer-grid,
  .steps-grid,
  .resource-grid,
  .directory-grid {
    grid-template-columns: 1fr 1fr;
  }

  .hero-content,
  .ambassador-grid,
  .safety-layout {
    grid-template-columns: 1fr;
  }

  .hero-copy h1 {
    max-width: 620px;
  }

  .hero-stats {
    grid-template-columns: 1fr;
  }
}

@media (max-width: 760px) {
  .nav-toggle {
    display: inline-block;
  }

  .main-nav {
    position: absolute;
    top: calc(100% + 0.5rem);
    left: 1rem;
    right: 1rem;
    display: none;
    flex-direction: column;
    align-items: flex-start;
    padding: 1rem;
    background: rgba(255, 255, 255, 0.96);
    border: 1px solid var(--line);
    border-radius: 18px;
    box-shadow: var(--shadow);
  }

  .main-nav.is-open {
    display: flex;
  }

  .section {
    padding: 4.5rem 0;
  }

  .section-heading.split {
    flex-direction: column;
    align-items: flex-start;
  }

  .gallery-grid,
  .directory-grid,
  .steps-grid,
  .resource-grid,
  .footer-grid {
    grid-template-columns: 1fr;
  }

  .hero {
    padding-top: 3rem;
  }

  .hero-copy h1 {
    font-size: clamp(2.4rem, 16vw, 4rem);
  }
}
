@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="South Africa Models Hub — official ambassador Mbuyiswa Inganathi, agency directory, portfolio guidance, and scam prevention resources for models in South Africa."
+    />
+    <title>South Africa Models Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="South Africa Models Hub home">
+          <span class="brand-mark">SA</span>
+          <span>South Africa Models Hub</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#ambassador">Ambassador</a>
+          <a href="#directory">Agencies</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#safety">Safety</a>
+          <a href="#resources">Resources</a>
+          <a href="#contact" class="nav-cta">Join Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Official platform for South African models</p>
+            <h1>Shine brighter with trusted opportunities.</h1>
+            <p class="lead">
+              South Africa Models Hub is built to help aspiring and professional models navigate agency discovery,
+              portfolio submissions, performance bookings, and safe career decisions with confidence.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#directory">Explore agencies</a>
+              <a class="btn btn-secondary" href="#portfolio">Portfolio guide</a>
+            </div>
+            <ul class="hero-stats" aria-label="South African model support stats">
+              <li><strong>3 Regions</strong><span>Johannesburg · Cape Town · Durban</span></li>
+              <li><strong>Model-ready</strong><span>Portfolio & submission guidance</span></li>
+              <li><strong>Safety-first</strong><span>Fraud prevention resources</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="image-card feature-card">
+              <img src="assets/image1.jpg" alt="Mbuyiswa Inganathi in a glamorous South African stage look" />
+            </div>
+            <div class="badge-pill">Official Brand Ambassador</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="partners-strip">
+        <div class="container partners-list" aria-label="Key model support services">
+          <span>Career resources</span>
+          <span>Agency listings</span>
+          <span>Portfolio tips</span>
+          <span>Scam prevention</span>
+          <span>Industry support</span>
+        </div>
+      </section>
+
+      <section id="ambassador" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Ambassador spotlight</p>
+            <h2>Mbuyiswa Inganathi leads the new era of South African modelling.</h2>
+          </div>
+
+          <div class="ambassador-grid">
+            <div class="ambassador-spotlight">
+              <img src="assets/image2.jpg" alt="Mbuyiswa Inganathi posing confidently in a couture-inspired gown" />
+            </div>
+
+            <div class="ambassador-copy">
+              <p>
+                Mbuyiswa Inganathi is the official brand ambassador and promoter for this platform—bringing elegance,
+                confidence, and opportunity to models across South Africa. Her presence represents excellence,
+                visibility, and a trusted path for emerging and experienced talent alike.
+              </p>
+              <div class="mini-features">
+                <div>
+                  <strong>Brand message</strong>
+                  <span>Confidence • Style • Opportunity</span>
+                </div>
+                <div>
+                  <strong>Mission</strong>
+                  <span>Connect talent with credible pathways and safe opportunities.</span>
+                </div>
+                <div>
+                  <strong>Reach</strong>
+                  <span>National presence across South Africa's key creative hubs.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-muted">
+        <div class="container">
+          <div class="gallery-grid">
+            <img src="assets/image3.jpg" alt="Mbuyiswa Inganathi in a pink gown speaking at a fashion event" />
+            <img src="assets/image4.jpg" alt="Mbuyiswa Inganathi on stage in a dramatic fashion presentation" />
+            <img src="assets/image1.jpg" alt="Mbuyiswa Inganathi in a polished stage portrait" />
+          </div>
+        </div>
+      </section>
+
+      <section id="directory" class="section">
+        <div class="container">
+          <div class="section-heading split">
+            <div>
+              <p class="eyebrow accent">Regional agency directory</p>
+              <h2>Trusted representation across South Africa.</h2>
+            </div>
+            <a class="text-link" href="#contact">Submit your profile</a>
+          </div>
+
+          <div class="directory-grid">
+            <article class="location-card">
+              <div class="city-tag">Johannesburg</div>
+              <h3>Urban Vogue Talent</h3>
+              <p>Fashion, commercial, and runway model recruitment for emerging and established talent.</p>
+              <ul>
+                <li>Runway & editorial</li>
+                <li>Commercial bookings</li>
+                <li>Portfolio review support</li>
+              </ul>
+              <a href="#contact">Request info</a>
+            </article>
+
+            <article class="location-card">
+              <div class="city-tag alt">Cape Town</div>
+              <h3>Atlantic Lens Models</h3>
+              <p>Beauty, lifestyle, luxury, and campaign representation for standout talent.</p>
+              <ul>
+                <li>Beauty campaigns</li>
+                <li>Editorial work</li>
+                <li>Brand casting</li>
+              </ul>
+              <a href="#contact">Request info</a>
+            </article>
+
+            <article class="location-card">
+              <div class="city-tag alt-two">Durban</div>
+              <h3>Coastal Edge Agency</h3>
+              <p>Support for models in KwaZulu-Natal and surrounding regions seeking growth opportunities.</p>
+              <ul>
+                <li>Promotional work</li>
+                <li>Commercial castings</li>
+                <li>New-face development</li>
+              </ul>
+              <a href="#contact">Request info</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section section-muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Digital portfolio guide</p>
+            <h2>How to submit your portfolio like a professional.</h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <span class="step-number">01</span>
+              <h3>Build a clean portfolio</h3>
+              <p>Use your strongest headshots, full-body images, and a few lifestyle or commercial shots.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">02</span>
+              <h3>Create a digital package</h3>
+              <p>Use a PDF, online gallery, or single-page portfolio with crisp images and consistent styling.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">03</span>
+              <h3>Write a strong profile</h3>
+              <p>Include height, measurements, location, availability, and a short introduction tailored to your market.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">04</span>
+              <h3>Submit professionally</h3>
+              <p>Follow agency instructions, be concise, and respond promptly with a polished, respectful message.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="safety" class="section">
+        <div class="container safety-layout">
+          <div>
+            <div class="section-heading left">
+              <p class="eyebrow accent">Scam prevention</p>
+              <h2>Protect your image, time, and investment.</h2>
+            </div>
+            <div class="checklist">
+              <label class="check-item"><input type="checkbox" checked /> Verify agency credentials and business details before sending portfolio materials.</label>
+              <label class="check-item"><input type="checkbox" checked /> Never pay upfront booking or registration fees without a written agreement.</label>
+              <label class="check-item"><input type="checkbox" checked /> Ask for a proper casting brief, client information, and contract terms in writing.</label>
+              <label class="check-item"><input type="checkbox" checked /> Be cautious of “instant success” promises or rushed decisions that pressure you to act.</label>
+              <label class="check-item"><input type="checkbox" checked /> Use secure communication channels and avoid sharing sensitive documents with unverified contacts.</label>
+              <label class="check-item"><input type="checkbox" checked /> If something feels vague or rushed, pause and verify independently.</label>
+            </div>
+          </div>
+
+          <div class="safety-card">
+            <h3>Quick safety checklist</h3>
+            <ul>
+              <li>Confirm identity and registration</li>
+              <li>Request written terms</li>
+              <li>Research the agency or client</li>
+              <li>Review all contracts carefully</li>
+              <li>Never share bank details too early</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Report suspicious outreach</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section section-muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Industry resource hub</p>
+            <h2>Helpful tools and guidance to support your career.</h2>
+          </div>
+
+          <div class="resource-grid">
+            <article class="resource-card">
+              <h3>Portfolio essentials</h3>
+              <p>Checklist for headshots, body shots, styling consistency, and industry-ready presentation.</p>
+            </article>
+            <article class="resource-card">
+              <h3>Booking basics</h3>
+              <p>Track payments, invoices, contracts, and essential communication like a professional.</p>
+            </article>
+            <article class="resource-card">
+              <h3>Networking</h3>
+              <p>Build a reputation through castings, collaborations, fashion communities, and social visibility.</p>
+            </article>
+            <article class="resource-card">
+              <h3>Ethical casting</h3>
+              <p>Understand the standards responsible agencies and clients should meet before confirming a booking.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">SA</span>
+            <span>South Africa Models Hub</span>
+          </a>
+          <p>Helping South African models grow with confidence, safety, and opportunity.</p>
+        </div>
+
+        <div>
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="#ambassador">Ambassador</a></li>
+            <li><a href="#directory">Agencies</a></li>
+            <li><a href="#portfolio">Portfolio Guide</a></li>
+            <li><a href="#safety">Safety Checklist</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: hello@samodelshub.co.za</li>
+            <li>Phone: +27 11 555 0142</li>
+            <li>Johannesburg, South Africa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> South Africa Models Hub. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
